@@ -13,8 +13,7 @@ st.set_page_config(
 # Load model with no loading message
 @st.cache_resource(show_spinner=False)
 def load_model():
-    return joblib.load(r"C:\Users\wub\Desktop\peda\best_xgboost_model.pkl")
-
+    return joblib.load("best_xgboost_model.pkl")
 model = load_model()
 
 # ============================================
