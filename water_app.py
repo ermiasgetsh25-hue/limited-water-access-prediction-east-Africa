@@ -37,7 +37,7 @@ with st.sidebar:
     **Algorithm:** XGBoost  
     **Region:** East Africa  
     **Outcome:** Limited vs Basic Water Access  
-    **Features:** 32 household & community variables  
+    **Features:** 38 household & community variables  
     """)
     
     st.metric("Classification Threshold", f"{YOUden_THRESHOLD:.3f}")
