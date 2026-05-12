@@ -54,8 +54,6 @@ with st.sidebar:
     """)
     
     st.divider()
-    st.caption("📝 **Citation:** [Your Paper Citation]")
-    st.caption("⚠️ **Disclaimer:** Decision support tool only. Field validation recommended.")
 
 # ============================================
 # MAIN INPUT FORM
