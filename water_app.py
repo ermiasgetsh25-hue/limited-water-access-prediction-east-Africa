@@ -24,7 +24,7 @@ YOUden_THRESHOLD = 0.4655
 # ============================================
 # PAGE CONTENT
 # ============================================
-st.title("💧 Machine Learning Prediction of Household Limited Access to Improved Water Services")
+st.title("💧 MACHINE LEARNING-BASED PREDICTION OF HOUSEHOLD LIMITED ACCESS TO IMPROVED WATER SERVICES AND IDENTIFICATION OF ITS DETERMINANTS IN EAST AFRICA: INSIGHTS FROM RECENT DEMOGRAPHIC AND HEALTH SURVEYS.")
 st.markdown("### East Africa Regional Prediction Tool")
 st.markdown("---")
 
@@ -302,25 +302,6 @@ if st.button("🔍 Predict Water Access Status", type="primary", use_container_w
         with col_result3:
             st.metric("Water Access Classification", 
                      "Limited Access" if probability >= YOUden_THRESHOLD else "Basic Access")
-        
-        # Detailed output with recommendations
-        if probability >= YOUden_THRESHOLD:
-            st.error("⚠️ **HIGH RISK: Household predicted to have LIMITED access to improved water services**")
-            st.warning("""
-            **Recommendations:**
-            - Prioritize for water infrastructure intervention
-            - Assess existing water sources for improvement
-            - Consider community-level water supply programs
-            - Provide household water treatment support
-            """)
-        else:
-            st.success("✅ **LOW RISK: Household predicted to have BASIC access to improved water services**")
-            st.info("""
-            **Recommendations:**
-            - Maintain current water access
-            - Monitor for potential deterioration
-            - Community education on water quality maintenance
-            """)
         
         # Show threshold information
         st.caption(f"*Classification based on Youden Index threshold: {YOUden_THRESHOLD:.3f}*")
