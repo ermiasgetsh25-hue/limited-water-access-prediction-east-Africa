@@ -24,7 +24,7 @@ YOUden_THRESHOLD = 0.4655
 # ============================================
 # PAGE CONTENT
 # ============================================
-st.title("💧 MACHINE LEARNING-BASED PREDICTION OF HOUSEHOLD LIMITED ACCESS TO IMPROVED WATER SERVICES AND IDENTIFICATION OF ITS DETERMINANTS IN EAST AFRICA: INSIGHTS FROM RECENT DEMOGRAPHIC AND HEALTH SURVEYS.")
+st.title("💧Machine learning-based prediction of limited access to improved drinking water services among households in east Africa using recent demographic and health survey data.")
 st.markdown("### East Africa Regional Prediction Tool")
 st.markdown("---")
 
