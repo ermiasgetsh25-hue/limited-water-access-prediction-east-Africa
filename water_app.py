@@ -51,7 +51,7 @@ with st.sidebar:
     - Recall: 0.77
     - F1-Score: 0.74
     - ROC-AUC: 0.808 (0.803-0.813)
-    -AP-AUC: 0.50
+    - AP-AUC: 0.50
     """)
     
     st.divider()
