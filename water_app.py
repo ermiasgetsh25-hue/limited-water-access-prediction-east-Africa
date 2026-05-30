@@ -46,11 +46,12 @@ with st.sidebar:
     st.divider()
     st.markdown("**Performance Metrics (Test Set)**")
     st.markdown("""
-    - Accuracy:  0.7462
-    - Precision: 0.7979
-    - Recall: 0.7462
-    - F1-Score: 0.7625
+    - Accuracy:  0.72
+    - Precision: 0.81
+    - Recall: 0.77
+    - F1-Score: 0.74
     - ROC-AUC: 0.808 (0.803-0.813)
+    -AP-AUC: 0.50
     """)
     
     st.divider()
